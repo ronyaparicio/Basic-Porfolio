@@ -102,7 +102,6 @@ header {
 .form input {
 	display: block;
 	width: 100%;
-	border-color: #dddddd;
 }
 .Message {
 	height: 300px;
@@ -113,9 +112,56 @@ header {
 	color: #777777;
 	font-size: 20px;
 }
+.summit {
+	background-color: #4aaaa5;
+}
 /*portfolio page main */
-.image {
-	background: url(../images/pow-star.png);
+.image1 {
+	background: url(../images/1.jpg);
+	background-size: 265px 200px;
+    height: 200px;
+    width: 265px;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.image2 {
+	background: url(../images/2.jpg);
+	background-size: 265px 200px;
+    height: 200px;
+    width: 265px;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.image3 {
+	background: url(../images/3.jpg);
+	background-size: 265px 200px;
+    height: 200px;
+    width: 265px;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+.image4{
+	background: url(../images/4.jpg);
+	background-size: 265px 200px;
+    height: 200px;
+    width: 265px;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+.image5 {
+	background: url(../images/basic.jpg);
+	background-size: 265px 200px;
     height: 200px;
     width: 265px;
     position: relative;
