@@ -18,6 +18,7 @@ header {
 	font-size: 30px;
 	padding: 35px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 }
 
 .nav {
@@ -47,11 +48,11 @@ header {
 
 /* middle section */
 .main {
-	border-top: 2px solid grey;
-	border-bottom: 5px solid #4aaaa5;
+	border-top: 2px solid #dddddd;
+	border-bottom: 10px solid #4aaaa5;
 	background: url('../images/pow-star.png');
-	min-height: 60%;
 	width: 100%;
+	height: 762px;
 }
 
 .container {
@@ -60,51 +61,62 @@ header {
 	overflow: auto;
 }
 
-.aside {
-	border: 1px solid black;
-	display: inline-block;
-	background-color: #fff;
-	color: #4aaaa5;
-	height:200px; 
-	width:270px;
-}
-
-.aside img {
-	height: 50px;
-	width: 50px;
-}
-
 .bio {
 	background-color: #fff;
 	max-width: 60%;
 	margin-top: 50px;
 	display: inline-block;
-	border:1px solid grey;
-	overflow: auto;
-
+	border:1px solid #dddddd;
 }
 .bio h2 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 30px;
 	margin: 10px;
-
+	font-weight: bold;
+	width: 550px;
+	border-bottom: 3px solid grey;
+	padding: 10px 0 10px 0;
 }
 
 .bio img {
-	height: 250px;
+	height: 200px;
 	width: 200px;
 	float: left;
+	margin: 15px;
 }
 
 .bio article {
 	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-bottom: 10px;
+}
+
+.aside {
+	border: 1px solid #dddddd;
+	display: inline-block;
+	background-color: #fff;
+	color: #4aaaa5;
+	height:200px; 
+	width:270px;
+	text-align: center;
+}
+
+.aside img {
+	height: 60px;
+	width: 60px;
+}
+.aside h4 {
+	font-size: 30px;
+	margin-top: 30px;
 }
 
 /* footer */
 
 footer {
 	width: 100%;
+	color: #dddddd;
 }
 .wrapper {
 	height: 100px;
