@@ -50,19 +50,23 @@ header {
 	border-top: 2px solid grey;
 	border-bottom: 5px solid #4aaaa5;
 	background: url('../images/pow-star.png');
-	height: 550px;
-	width: 100%
+	min-height: 60%;
+	width: 100%;
 }
 
 .container {
 	max-width: 1000px;
 	margin:auto;
-	border: 2px solid red;
 	overflow: auto;
 }
 
 .aside {
 	border: 1px solid black;
+	display: inline-block;
+	background-color: #fff;
+	color: #4aaaa5;
+	height:200px; 
+	width:270px;
 }
 
 .aside img {
@@ -73,15 +77,37 @@ header {
 .bio {
 	background-color: #fff;
 	max-width: 60%;
+	margin-top: 50px;
+	display: inline-block;
+	border:1px solid grey;
+	overflow: auto;
 
 }
 .bio h2 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	margin: 10px;
+
 }
 
 .bio img {
 	height: 250px;
 	width: 200px;
 	float: left;
+}
+
+.bio article {
+	font-size: 20px;
+}
+
+/* footer */
+
+footer {
+	width: 100%;
+}
+.wrapper {
+	height: 100px;
+	background-color: #666666;
+	text-align: center;
 }
