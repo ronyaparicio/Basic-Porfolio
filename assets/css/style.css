@@ -1,0 +1,87 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+}
+.header {
+	height: 100px;
+	margin: auto;
+	max-width: 1000px;
+}
+.name {
+	background-color: #4aaaa5;
+	color: #fff;
+	float: left;
+	font-size: 30px;
+	padding: 35px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav {
+	float: right;
+	width: 270px;
+	margin-right: 100px;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.nav a {
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 20px;
+	position: relative;
+	top: 40px;
+	padding-right: 20px;
+
+
+}
+.nav a:hover {
+	color: black;
+
+}
+
+/* middle section */
+.main {
+	border-top: 2px solid grey;
+	border-bottom: 5px solid #4aaaa5;
+	background: url('../images/pow-star.png');
+	height: 550px;
+	width: 100%
+}
+
+.container {
+	max-width: 1000px;
+	margin:auto;
+	border: 2px solid red;
+	overflow: auto;
+}
+
+.aside {
+	border: 1px solid black;
+}
+
+.aside img {
+	height: 50px;
+	width: 50px;
+}
+
+.bio {
+	background-color: #fff;
+	max-width: 60%;
+
+}
+.bio h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.bio img {
+	height: 250px;
+	width: 200px;
+	float: left;
+}
