@@ -112,8 +112,15 @@ header {
 	color: #777777;
 	font-size: 20px;
 }
-.summit {
+.form .summit {
 	background-color: #4aaaa5;
+	width: 20%;
+	margin:20px 0 20px 0;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
 }
 /*portfolio page main */
 .image1 {
