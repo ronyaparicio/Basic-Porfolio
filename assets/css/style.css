@@ -24,7 +24,6 @@ header {
 .nav {
 	float: right;
 	width: 270px;
-	margin-right: 100px;
 	height: 100%;
 	text-align: center;
 	position: relative;
@@ -38,8 +37,6 @@ header {
 	position: relative;
 	top: 40px;
 	padding-right: 20px;
-
-
 }
 .nav a:hover {
 	color: black;
@@ -65,8 +62,8 @@ header {
 	background-color: #fff;
 	max-width: 60%;
 	margin-top: 50px;
-	display: inline-block;
 	border:1px solid #dddddd;
+	float: left;
 }
 .bio h2 {
 	color: #4aaaa5;
@@ -75,7 +72,7 @@ header {
 	margin: 10px;
 	font-weight: bold;
 	width: 550px;
-	border-bottom: 3px solid grey;
+	border-bottom: 3px solid #dddddd;
 	padding: 10px 0 10px 0;
 }
 
@@ -91,25 +88,78 @@ header {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 160%;
 }
 
+/*contact page main*/
+
+.form {
+	margin: 0 10px 0 10px;
+}
+
+.form input {
+	display: block;
+	width: 100%;
+	border-color: #dddddd;
+}
+.Message {
+	height: 300px;
+}
+
+.form h3 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 20px;
+}
+/*portfolio page main */
+.image {
+	background: url(../images/pow-star.png);
+    height: 200px;
+    width: 265px;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.bio h5 {
+	text-align: center;
+	position: relative;
+	top: 165px;
+	background-color: #4aaaa5;
+	color:#fff;
+	padding: 5px;
+	font-weight: bold;
+}
+
+
+/* social media */
 .aside {
 	border: 1px solid #dddddd;
-	display: inline-block;
 	background-color: #fff;
 	color: #4aaaa5;
 	height:200px; 
 	width:270px;
 	text-align: center;
+	float: right;
+	margin-top: 50px;
 }
+
 
 .aside img {
 	height: 60px;
 	width: 60px;
+	margin-top: 5px;
 }
 .aside h4 {
-	font-size: 30px;
+	font-size: 25px;
 	margin-top: 30px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #dddddd;
+	width: 200px;
+	margin: 30px auto;
 }
 
 /* footer */
@@ -122,4 +172,7 @@ footer {
 	height: 100px;
 	background-color: #666666;
 	text-align: center;
+}
+.wrapper p {
+	padding-top:40px;
 }
